@@ -1,5 +1,5 @@
 /**
- * 一般大學-跨域課程模組資源地圖 V6.0 GAS 後端腳本
+ * 科技大學-原住民族跨領域課程資源地圖 V6.0 GAS 後端腳本
  * * 部署說明：
  * 1. 請確認 ssId 對接您最新的試算表 ID（目前已設定為您的 17xgU7D08XMKytbgzDQx9-kxOC7eM59QqGklAGN4FTVM）。
  * 2. 第一次使用時，請在上方選單選擇 "authTrigger" 並點擊「執行」以進行安全授權。
@@ -9,7 +9,7 @@
 function doGet() {
   return HtmlService.createTemplateFromFile('index')
       .evaluate()
-      .setTitle('一般大學-跨域課程模組資源地圖')
+      .setTitle('科技大學-原住民族跨領域課程資源地圖')
       .addMetaTag('viewport', 'width=device-width, initial-scale=1')
       .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
 }
