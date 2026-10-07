@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>一般大學-跨域課程模組資源地圖</title>
+    <title>科技大學-跨域技職實務模組資源地圖 (TechUni)</title>
     <!-- 載入關鍵前端依賴庫 -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
@@ -103,180 +103,183 @@
             const linkSelectionRef = useRef(null);
             const linkLabelSelectionRef = useRef(null);
 
-            // 四大階段之關鍵步驟與 VRIO 策略建議 (提升字體與資訊寬度)
+            // 四大階段之關鍵步驟與 VRIO 策略建議 (科技大學專屬)
             const phaseStrategy = {
-                'PHASE 01: 建立學程架構': {
-                    title: '建立學分學程架構',
+                'PHASE 01: 建立技職學程架構': {
+                    title: '建立跨域技職學程架構',
                     steps: [
-                        '制定跨院科目表，將原民音樂與文化融合課程（如：全人通識）正式納入大學學分。',
-                        '啟動校級行政核備（結合教務處、全人教育課程中心），開通跨院選課通道與機制。',
-                        '設計原流學程專屬 Logo 與品牌識別，辦理招生說明會凝聚校內跨族群共學青年。'
+                        '制定跨系技職實務科目表，將產業技能認證與安全實作正式納入學分微學程體系。',
+                        '啟動校級法規與實作場域安檢核備（通過職業安全衛生管理與工廠認證），開通跨系彈性選課機制。',
+                        '成立產官學專家諮詢委員會與技職學程品牌識別，辦理新生與跨系修讀說明會凝聚學員。'
                     ],
-                    suggestions: '在行政初期應強化「開課單位與行政中樞」的授權整合。雖然前期行政審議（比重 1）事務繁重，但這是確保學位學程合法性與永續經營必不可少的地基。'
+                    suggestions: '在行政初期應強化「實作工場安檢規範與跨系行政中樞」的整合。雖然前期法規與安檢審核（比重 1）程序繁雜，但這是保障技職實驗工場安全、避免工安意外並建立學程合法性的根本地基。'
                 },
-                'PHASE 02: 產學技術對接': {
-                    title: '產學大師技術深度對接',
+                'PHASE 02: 雙師協同與產學共構': {
+                    title: '雙師協同與高階產學共構',
                     steps: [
-                        '引進金曲入圍等級之原民業界大師與資深錄音師，入校協同主持「陪伴式」實作工作坊。',
-                        '整合藝術學院與音樂學系百萬級電子音樂、專業錄音室硬體設備，建構頂級實作場域。',
-                        '對接外部唱片經紀與發行生態系，提供學生錄音、混音、母帶處理等專業實習機會。'
+                        '引進金牌技術名師與產業資深工程師，落實「雙師共時協同授課」，傳授產業第一線尖端工藝。',
+                        '整合工學院與設計學院百萬級智慧實作工場（如五軸加工機、智慧製造感測實驗室），建構工業級實務場域。',
+                        '鏈結重點園區龍頭企業與產學公會，建立全學期（或一學年）深度校外帶薪實習機制與留任管道。'
                     ],
-                    suggestions: '技術對接的核心在於「VRIO 實體與無形資產」的交融。百萬級專業錄音室（比重 4）需搭配「金曲校友輔導」才能產生最大技術溢出，建議建立設備借用與維護標準。'
+                    suggestions: '產學技術對接之核心在於「VRIO 實體設備與名師隱性經驗」之交融。百萬級智慧實作工場（比重 4）需搭配「金牌業師雙師指導（比重 5）」方能產生最高綜效，建議建置機台操作 SOP 與自主維護認證制度。'
                 },
-                'PHASE 03: 文化內涵深耕': {
-                    title: '文化底蘊與原鄉聲音溯源',
+                'PHASE 03: 實務專題在地轉譯': {
+                    title: '實務專題與地方產業轉譯',
                     steps: [
-                        '開設精準的族語沉浸式與傳統古調傳唱培訓，由傳統領袖與耆老擔任傳承導師。',
-                        '帶領學員組成採集與田調團隊，深入文化原鄉，錄製最具純正傳承意義的部落原生聲響。',
-                        '發揮自治學生社團（如拿珊瑪谷社）功能，在校園內搭建沉浸式傳統竹構或獵寮地標。'
+                        '開設在地創生與產業升級實務專題課程，由專業教師與社區業師共同帶領團隊進駐場域。',
+                        '運用智慧感測、3D 逆向工程與數位製造技術，為在地傳統工藝與地方農業進行創新技術轉譯。',
+                        '建立場域倫理合約與智財產權共享機制，恪遵知情同意規範，確保地方社群與校方權益互惠。'
                     ],
-                    suggestions: '文化深耕是本計畫不可模仿的競爭護城河（比重 5）。進行古調傳唱與田野調查前，必須嚴格落實「原鄉知情同意與倫理檢核（SOP）」，保護部落無形知識產權。'
+                    suggestions: '在地實務專題是科技大學建立在地不可替代性的護城河（比重 5）。在執行產業技術升級與數位化時，必須嚴格簽署「產學智財歸屬與場域知情同意合約（FPIC）」，保護在地夥伴無形知識與研發專利。'
                 },
-                'PHASE 04: 培育成果驗收': {
-                    title: '跨域合輯發行與成果展示',
+                'PHASE 04: 技職典範與職涯對接': {
+                    title: '技職典範與職涯跨域對接',
                     steps: [
-                        '集成各組成果，產出「原來很音樂 II」原民數位創作合輯，完成數位串流音樂上架。',
-                        '由學生自主組織導演、攝影、燈光團隊，協力完成主打歌曲之專業級 MV 影像產製。',
-                        '舉辦年度大型跨校聯合巡演與動態發表，並透過校級 IR 數據精準監測培育人才就業力。'
+                        '全面輔導修讀學生報考國家乙級（或國際原廠）技術士技能檢定，取得關鍵從業證照。',
+                        '組隊征戰全國技專校院學生實務專題製作競賽、國際發明展，展現技職研發能量並爭取頂尖大獎。',
+                        '將專題成果申請新型/發明專利，推動技轉商轉，並透過校務 IR 系統長期追蹤畢業生起薪與職場競爭力。'
                     ],
-                    suggestions: '成果驗收應從單純的「展演辦活動」提升為「典範人才職涯發展追蹤（比重 5）」。建議以個人「專業作品集（Portfolio）」作為結業審查標準，直接對標就業市場。'
+                    suggestions: '技職成果驗收應超越「單純完成專題報告」，全面對標「證照、競賽、專利與就業薪資（比重 5）」。建議落實學生個人技術履歷與作品集認證，讓學生在畢業前即被實習企業高薪預聘。'
                 }
             };
 
-            // 111學年度原流學程期末報告 - 45筆去識別化備用數據
+            // 科技大學跨域技職實務模組 - 45筆去識別化備用數據
             const fallbackData = {
                 nodes: [
-                    { id: "PHASE 01: 建立學程架構", group: "PHASE 01: 建立學程架構", importance: 5, desc: "學程行政核備、跨院協調、規章制定與品牌識別階段。", source: "系統定義" },
-                    { id: "PHASE 02: 產學技術對接", group: "PHASE 02: 產學技術對接", importance: 5, desc: "大師協作、專業錄音場域、數位音訊硬體與實習媒合階段。", source: "系統定義" },
-                    { id: "PHASE 03: 文化內涵深耕", group: "PHASE 03: 文化內涵深耕", importance: 5, desc: "古調採集、族語沉浸式培訓、部落溯源與認同重塑階段。", source: "系統定義" },
-                    { id: "PHASE 04: 培育成果驗收", group: "PHASE 04: 培育成果驗收", importance: 5, desc: "合輯音樂上架、專業MV拍攝、跨校成果發表與就業追蹤階段。", source: "系統定義" },
+                    { id: "PHASE 01: 建立技職學程架構", group: "PHASE 01: 建立技職學程架構", importance: 5, desc: "學程規章法規審查、工場安檢、跨系選課通道與品牌識別階段。", source: "系統定義" },
+                    { id: "PHASE 02: 雙師協同與產學共構", group: "PHASE 02: 雙師協同與產學共構", importance: 5, desc: "金牌業師雙師共時、百萬智慧實作基地、全學期校外實習階段。", source: "系統定義" },
+                    { id: "PHASE 03: 實務專題在地轉譯", group: "PHASE 03: 實務專題在地轉譯", importance: 5, desc: "地方創生實務專題、傳統工藝數位化、智財共有與場域協作階段。", source: "系統定義" },
+                    { id: "PHASE 04: 技職典範與職涯對接", group: "PHASE 04: 技職典範與職涯對接", importance: 5, desc: "國家乙級考照、全國專題競賽獲獎、新型專利商轉與校務 IR 就業薪資階段。", source: "系統定義" },
                     
                     // PHASE 01
-                    { id: "跨院學程規章審核", group: "PHASE 01: 建立學程架構", importance: 1, desc: "行政維持成本。教務處常態性規章審定，確保「學分學程」在體系中的開課法規與合規性。", source: "[行政授權]" },
-                    { id: "通識學分跨院對開", group: "PHASE 01: 建立學程架構", importance: 3, desc: "結構性資本。全人教育中心共同合作，將「原民流行音樂與文化課程」學分納入通識課程。", source: "[行政授權]" },
-                    { id: "學程 Logo 設計與推廣", group: "PHASE 01: 建立學程架構", importance: 2, desc: "視覺符號資產。學程專屬 brand Logo 與整體視覺識別，用於成果發表、合輯、自媒體包裝中。", source: "[技術指標]" },
-                    { id: "招生說明會辦理", group: "PHASE 01: 建立學程架構", importance: 2, desc: "情感動員。期初於校內及夥伴學校舉辦招生宣傳，藉由實體互動吸引跨院系隱性學員。", source: "[學生組織]" },
-                    { id: "專家諮詢委員會", group: "PHASE 01: 建立學程架構", importance: 3, desc: "治理監督。聘任校外原民政策長老與產業界大師，監督學程經費流向與資源配置之正確性。", source: "[行政授權]" },
-                    { id: "跨領域產業學程", group: "PHASE 01: 建立學程架構", importance: 5, desc: "頂層策略資產。正式核准的校級「跨領域流行音樂學分學程」，打通藝術、傳播、民研等學院高牆。", source: "[核心主軸]" },
-                    { id: "畢業證書核發機制", group: "PHASE 01: 建立學程架構", importance: 2, desc: "程序資產。配合教務處制定的學程修業期滿與專屬結業證書發放標準，增加學員投入動因。", source: "[行政授權]" },
-                    { id: "行政庶務核銷", group: "PHASE 01: 建立學程架構", importance: 1, desc: "維持成本。活動基本餐飲支出，零策略價值但為行政流程與出席率凝聚的最低限度保障。", source: "[行政瑣務]" },
-                    { id: "專職輔導員薪資核算", group: "PHASE 01: 建立學程架構", importance: 1, desc: "維持成本。教育部或校級人事編制薪資報帳，屬剛性勞務。維持中樞日常關懷量能的行政保障。", source: "[行政授權]" },
-                    { id: "成果報告與核銷彙整", group: "PHASE 01: 建立學程架構", importance: 1, desc: "績效產出成本。年底、期中向政府機關與校方核銷核備的文書彙整，屬於無法避免的行政義務。", source: "[行政授權]" },
-                    { id: "公務網站信箱收發管理", group: "PHASE 01: 建立學程架構", importance: 1, desc: "資訊管道。中心日常文書收發、轉知、回報之基本營運流程，支撐系統基礎溝通。", source: "[行政瑣務]" },
+                    { id: "跨系學程規章審核", group: "PHASE 01: 建立技職學程架構", importance: 1, desc: "行政維持成本。教務會議常態性審議跨系實務學程設置要點，確保微學程開課合規性與學分採計。", source: "[行政授權]" },
+                    { id: "實作工場職業安全檢驗", group: "PHASE 01: 建立技職學程架構", importance: 3, desc: "安全基石。落實勞動部與教育部工場職安衛生安檢規範，建置危險機具防護與緊急斷電標準SOP。", source: "[實作認證]" },
+                    { id: "技職學程品牌識別與推廣", group: "PHASE 01: 建立技職學程架構", importance: 2, desc: "形象資產。設計技職跨域學程專屬視覺識別與多媒體形象，用於招生宣傳、競賽展攤與官網整合。", source: "[技術指標]" },
+                    { id: "招生說明會與跨系說明", group: "PHASE 01: 建立技職學程架構", importance: 2, desc: "動員溝通。期初於工管、設計、資工各系舉辦學程修讀宣傳，藉由實體樣品吸引跨系實作人才。", source: "[行政瑣務]" },
+                    { id: "產官學專家諮詢委員會", group: "PHASE 01: 建立技職學程架構", importance: 3, desc: "治理監督。聘任產業公協會理事長與園區技術長，定期檢視學程科目地圖是否契合產業最新需求。", source: "[行政授權]" },
+                    { id: "跨領域技職實務微學程", group: "PHASE 01: 建立技職學程架構", importance: 5, desc: "頂層策略資產。正式核准之校級跨領域實務學程，打通工程、智慧控制、工業設計之選課壁壘。", source: "[核心主軸]" },
+                    { id: "技術修業證書核發機制", group: "PHASE 01: 建立技職學程架構", importance: 2, desc: "制度誘因。配合教務處制定修滿學分且通過實作檢定之專屬證書核發機制，提升就業履歷辨識度。", source: "[行政授權]" },
+                    { id: "常態材料與耗材採購報銷", group: "PHASE 01: 建立技職學程架構", importance: 1, desc: "日常維運。銑刀、板材、電路元件等日常實作耗材採購與核銷流程，屬維持實作工場運作之基層庶務。", source: "[行政瑣務]" },
+                    { id: "學程專案助理薪資核算", group: "PHASE 01: 建立技職學程架構", importance: 1, desc: "維持成本。教育部技專計畫編制專任助理日常出勤與薪資報帳，支撐日常跨系協調與公文傳遞。", source: "[行政授權]" },
+                    { id: "期末成果彙整與經費核銷", group: "PHASE 01: 建立技職學程架構", importance: 1, desc: "績效義務。年底向教育部技職司與校方研發處繳交結案成果報告與經費單據，屬剛性法規義務。", source: "[行政授權]" },
+                    { id: "實作工場設備預約平台", group: "PHASE 01: 建立技職學程架構", importance: 2, desc: "資訊管道。建置線上機台預約與安全守則測驗系統，協調各系學生使用時段，提升設備周轉率。", source: "[實作認證]" },
 
                     // PHASE 02
-                    { id: "金曲等級校友業師", group: "PHASE 02: 產學技術對接", importance: 5, desc: "稀缺名師資本。邀請在產業界有金曲獎入圍/獲獎的頂級校友駐校指導，縮短學生的社會資本落差。", source: "[核心主軸]" },
-                    { id: "百萬級專業錄音室", group: "PHASE 02: 產學技術對接", importance: 4, desc: "硬體實體資本。整合藝術學院音樂學系專業錄音與混音空間，提供對標業界標準的實作場域。", source: "[技術指標]" },
-                    { id: "自媒體與數位音樂講座", group: "PHASE 02: 產學技術對接", importance: 3, desc: "技術資產。邀請業師進行線上版權、串流發行與 Podcast 品牌行銷之單場或主題式技能講座。", source: "[產學對接]" },
-                    { id: "錄音混音實務培訓", group: "PHASE 02: 產學技術對接", importance: 4, desc: "技能賦能。由業界錄音師駐校指導學生操作 DAW 軟體，培育數位時代的音樂產製工程人才。", source: "[技術指標]" },
-                    { id: "產業實習機會媒合", group: "PHASE 02: 產學技術對接", importance: 4, desc: "三螺旋（市場對接）。與業界音樂製作室、傳播公司合作，提供高年級學員專屬的業界實習管道。", source: "[產學對接]" },
-                    { id: "專業級錄混音設備", group: "PHASE 02: 產學技術對接", importance: 4, desc: "硬體資產。配合音樂系設備升級，引進頂級音訊介面、專業話筒、合成器與電子音樂錄製硬體。", source: "[技術指標]" },
-                    { id: "工讀金與一般獎學金", group: "PHASE 02: 產學技術對接", importance: 2, desc: "基礎福利。提供原資中心工讀機會，舒緩學生經濟適應焦慮，也是引導參與高階培訓的基礎拉力。", source: "[核心主軸]" },
-                    { id: "設備維護與年度盤點", group: "PHASE 02: 產學技術對接", importance: 1, desc: "硬體管理。針對相機、筆電、音響等租賃或採購硬體進行年度盤點與報修，屬於低策略價值但必須。", source: "[行政瑣務]" },
-                    { id: "自主創業孵化培育", group: "PHASE 02: 產學技術對接", importance: 4, desc: "三螺旋（高端）。輔導優秀合輯作品學生團隊參與教育部創業計畫，探索原民音樂變現的商業模式。", source: "[產學資源]" },
+                    { id: "金牌產業業師雙師共時", group: "PHASE 02: 雙師協同與產學共構", importance: 5, desc: "稀缺人才資產。邀請榮獲全國金牌或具20年現場經驗之資深技術專家，與校內專任教授共時授課。", source: "[雙師協同]" },
+                    { id: "百萬智慧實作基地", group: "PHASE 02: 雙師協同與產學共構", importance: 4, desc: "硬體實體資本。建置高階五軸加工機、工業級機械手臂與智慧感測產線，對標先進製造業規格。", source: "[基地實作]" },
+                    { id: "全學期校外企業實習", group: "PHASE 02: 雙師協同與產學共構", importance: 5, desc: "深層市場對接。安排大四學生前往科技大廠進行9學分全學期帶薪實習，建立留任就業直接通道。", source: "[產學對接]" },
+                    { id: "產學共構實務教材開發", group: "PHASE 02: 雙師協同與產學共構", importance: 3, desc: "知識資產。由業師與校內教師共同編寫貼合產線實況之技術手冊與案例教案，取代空泛理論講義。", source: "[雙師協同]" },
+                    { id: "工業物聯網技術專題講座", group: "PHASE 02: 雙師協同與產學共構", importance: 3, desc: "技術賦能。邀請業界系統整合架構師舉辦邊緣運算、感測器整合與雲端通訊實務之主題技術工作坊。", source: "[技術指標]" },
+                    { id: "機台操作檢核與技能認證", group: "PHASE 02: 雙師協同與產學共構", importance: 4, desc: "安全能力認證。學生操作精密設備前必須通過盲測考驗並取得校內操作執照，確保製程與人身安全。", source: "[基地實作]" },
+                    { id: "智慧檢測儀器與感測套件", group: "PHASE 02: 雙師協同與產學共構", importance: 4, desc: "硬體技術指標。購置高精度雷射測距儀、頻譜分析儀與工業相機，提供高階逆向工程檢驗環境。", source: "[基地實作]" },
+                    { id: "清寒實習工讀與生活助學金", group: "PHASE 02: 雙師協同與產學共構", importance: 2, desc: "扶助福利。提供實作工場學生助理津貼與實習交通津貼，減輕經濟壓力，保障專注投入高階培訓。", source: "[核心主軸]" },
+                    { id: "機具定期校正與防護保養", group: "PHASE 02: 雙師協同與產學共構", importance: 1, desc: "日常維護。依規定對精密主軸、氣壓管路與校正治具進行年度委外校驗，維持加工公差精度。", source: "[行政瑣務]" },
+                    { id: "產學產學案先期研發媒合", group: "PHASE 02: 雙師協同與產學共構", importance: 4, desc: "研發動能。媒合地方中小型製造業提出產線技術痛點，由學程師生組成研發小組共同承接解題。", source: "[產學對接]" },
 
                     // PHASE 03
-                    { id: "部落聲音採集與田野", group: "PHASE 03: 文化內涵深耕", importance: 4, desc: "文化資本。帶領學生在暑期返鄉進行古調傳唱與自然音景採集，作為數位創作音樂最純正的基底。", source: "[部落連結]" },
-                    { id: "族語沉浸式工作坊", group: "PHASE 03: 文化內涵深耕", importance: 3, desc: "能力資產。提升語言主體性，由傳統語文大師深度指導歌詞翻譯與當代族語拼音。", source: "[族語教學]" },
-                    { id: "傳統古調流行再造", group: "PHASE 03: 文化內涵深耕", importance: 4, desc: "轉譯價值核心。將採集的古調或傳統聲響融合西方電子音樂或現代編曲，產出具備競爭力的文化載體。", source: "[文化深耕]" },
-                    { id: "都會經驗認同修復", group: "PHASE 03: 文化內涵深耕", importance: 5, desc: "精神資本。針對非部落長大的都會原住民青年，建立認同工作坊，修復因遷徙產生的文化與認同失落。", source: "[社會資本]" },
-                    { id: "傳統樂器製作工作坊", group: "PHASE 03: 文化內涵深耕", importance: 4, desc: "VRIO 技術。邀請耆老親自傳授竹鼓、鼻笛、木琴製作工藝，實踐「做中學」以傳承無形資產。", source: "[文化深耕]" },
-                    { id: "傳統祭儀校園實踐", group: "PHASE 03: 文化內涵深耕", importance: 3, desc: "儀式資本。於校慶辦理部落地區傳統祭典實踐（如小米收穫祭、成年禮），強化學生的族群歸屬感。", source: "[文化深耕]" },
-                    { id: "民族史觀知識庫", group: "PHASE 03: 文化內涵深耕", importance: 5, desc: "知識治理。將採集的祭儀、歌詞與傳統歌謠進行嚴謹的學術化研究整理，建構專屬的史觀系統。", source: "[文化深耕]" },
-                    { id: "一生四師陪伴計畫", group: "PHASE 03: 文化內涵深耕", importance: 3, desc: "社會安全網。專職原民導師、系所心理師、課業助理與部落導師，多對一全方位關懷，提供高黏著。", source: "[核心主軸]" },
-                    { id: "活動保險與差旅報支", group: "PHASE 03: 文化內涵深耕", importance: 1, desc: "風險防禦成本。辦理部落地區參訪、跨校發表、田野調查之剛性核銷程序，屬於行政基礎保障。", source: "[行政瑣務]" },
-                    { id: "族語快閃錄音空間", group: "PHASE 03: 文化內涵深耕", importance: 2, desc: "弱連結觸及。在校園一角建立行動快閃錄音室，吸引非原住民師生錄製簡單族語，推廣全民原教。", source: "[族語教學]" },
-                    { id: "空間美學共構計畫", group: "PHASE 03: 文化內涵深耕", importance: 4, desc: "實務社群。由原民生與美術系、音樂系等師生共同改造原資空間，注入部落美學，提高空間留存。", source: "[文化深耕]" },
-                    { id: "雙語與符號空間改造", group: "PHASE 03: 文化內涵深耕", importance: 3, desc: "符號資本。在校園路標、原資中心空間置入族語拼音，透過實體改造，提升校園多元文化曝光。", source: "[技術指標]" },
+                    { id: "地方產業創生實務專題", group: "PHASE 03: 實務專題在地轉譯", importance: 5, desc: "VRIO 護城河。帶領跨系學生深入在地產業聚落（如精密機械、農業生技），以技術專題解決真實痛點。", source: "[在地創生]" },
+                    { id: "傳統工藝逆向數位建模", group: "PHASE 03: 實務專題在地轉譯", importance: 4, desc: "文化科技轉譯。運用3D掃描與點雲建模技術，將在地老工匠之木雕、編織手法轉譯為精確數位圖檔。", source: "[工藝數位]" },
+                    { id: "智慧感測融入在地農業", group: "PHASE 03: 實務專題在地轉譯", importance: 4, desc: "跨域應用。在地方溫室建置土壤濕度與微氣候LoRa物聯網監控節點，協助在地小農實現精準灌溉。", source: "[技術移轉]" },
+                    { id: "傳統紋樣文創商品開模", group: "PHASE 03: 實務專題在地轉譯", importance: 3, desc: "文化加值。結合工藝圖騰與現代產品設計，使用3D列印與矽膠開模技術產出具市場潛力之實體文創品。", source: "[文化轉譯]" },
+                    { id: "在地青農特色包裝智慧化", group: "PHASE 03: 實務專題在地轉譯", importance: 3, desc: "設計轉型。為在地產銷班重構品牌視覺與具備QR-code生產履歷防偽辨識之環保機能包裝結構。", source: "[在地創生]" },
+                    { id: "部落社區田野技術訪調", group: "PHASE 03: 實務專題在地轉譯", importance: 3, desc: "社會實踐。師生團隊暑期駐村進行農產加工流程與天然工藝耗損訪談，建立田野技術需求清單。", source: "[在地創生]" },
+                    { id: "知情同意與智財共有機制", group: "PHASE 03: 實務專題在地轉譯", importance: 5, desc: "倫理治理。嚴格落實FPIC知情同意原則，與在地工坊簽署技術成果智財分享協議，杜絕文化技術掠奪。", source: "[在地創生]" },
+                    { id: "師生場域駐點工作坊", group: "PHASE 03: 實務專題在地轉譯", importance: 3, desc: "實踐社群。在地方創生基地搭建快閃實作工作站，由學生為在地居民舉辦基礎數位加工與修繕課程。", source: "[實務專題]" },
+                    { id: "在地天然材料成分萃取試驗", group: "PHASE 03: 實務專題在地轉譯", importance: 4, desc: "生技加值。與地方林業產銷班合作，提煉高經濟價值之植物精油與抑菌萃取物，建立檢驗規格書。", source: "[技術移轉]" },
+                    { id: "低碳綠色製程改良專案", group: "PHASE 03: 實務專題在地轉譯", importance: 4, desc: "永續實踐。協助在地金屬加工廠改善切削冷卻水循環與排碳量，提出節能減碳最佳化製程方案。", source: "[技術移轉]" },
+                    { id: "田野訪調差旅與保險報支", group: "PHASE 03: 實務專題在地轉譯", importance: 1, desc: "防禦維持。辦理師生前往外縣市偏鄉訪調之平安保險與派車差旅申報，屬剛性行政作業。", source: "[行政瑣務]" },
+                    { id: "在地創生展演場域共構", group: "PHASE 03: 實務專題在地轉譯", importance: 3, desc: "空間活化。與在地農會合作改造閒置穀倉為跨系學生專題實作與在地產品聯名展示體驗基地。", source: "[在地創生]" },
 
                     // PHASE 04
-                    { id: "音樂合輯製作", group: "PHASE 04: 培育成果驗收", importance: 4, desc: "111年度集體創作精選「原來很音樂 II」實體與數位合輯產製成果。", source: "[成果驗收]" },
-                    { id: "學員 MV 影像影音產製", group: "PHASE 04: 培育成果驗收", importance: 4, desc: "培訓學生擔任導演、攝影與剪輯，完成原創歌曲之專業級 MV 影片拍攝與後製。", source: "[技術指標]" },
-                    { id: "年度大型跨域發表展演", group: "PHASE 04: 培育成果驗收", importance: 4, desc: "於校內外舉辦成果發表音樂會，集結系所音樂技術與部落古調精華之年度盛典。", source: "[成果驗收]" },
-                    { id: "校務 IR 精準預警追蹤", group: "PHASE 04: 培育成果驗收", importance: 5, desc: "數據治理。承接教務處數據，運用 IR 分析，精準對高風險、退學危機學生進行一對一關懷介入。", source: "[績效指標]" },
-                    { id: "一站式輔導樞紐", group: "PHASE 04: 培育成果驗收", importance: 5, desc: "典範學校能力。將行政、學業輔導、心理諮商整合，由專任輔導專員擔任窗口，防止資訊不對稱。", source: "[核心主軸]" },
-                    { id: "雙導師與三級輔導", group: "PHASE 04: 培育成果驗收", importance: 5, desc: "支持系統。結合系所學術導師、原資中心專責輔導員與校友職涯導師，建立多層次社會資本保護網。", source: "[核心主軸]" },
-                    { id: "自治社團", group: "PHASE 04: 培育成果驗收", importance: 3, desc: "情感凝聚 CoP。校內原住民學生成長、集會之自治組織，提供新生的同儕輔導與校園倡議。", source: "[學生組織]" },
-                    { id: "原民小畢典與成年禮", group: "PHASE 04: 培育成果驗收", importance: 3, desc: "儀式資本。每年辦理具傳統文化特色的小畢典，強化畢業學員與原資中心的深層社會連結。", source: "[成果驗收]" },
-                    { id: "期中預警人工電訪", group: "PHASE 04: 培育成果驗收", importance: 2, desc: "被動式防守。由原資輔導專員人工篩選預警學籍名單並逐一電話訪談，屬於科學 IR 的人工前置作業。", source: "[核心主軸]" },
-                    { id: "全民原教知能研習", group: "PHASE 04: 培育成果驗收", importance: 4, desc: "制度創新。針對全校行政與學術主管辦理文化敏感度培訓，消除校園中的潛在隱微歧視。", source: "[策略輸出]" },
-                    { id: "跨校成果聯合巡演", group: "PHASE 04: 培育成果驗收", importance: 4, desc: "規模經濟。帶動區域夥伴學校辦理巡迴展演，擴大計畫影響力，確立本校之「教練示範地位」。", source: "[成果驗收]" },
-                    { id: "學生專業作品集製作", group: "PHASE 04: 培育成果驗收", importance: 4, desc: "人力資本。引導每位修課學員完成一首完整的混音作品 or MV，以此作品集對標市場就讀就業。", source: "[績效指標]" }
+                    { id: "國家乙級技術士考照通過", group: "PHASE 04: 技職典範與職涯對接", importance: 5, desc: "關鍵技術硬指標。輔導全體修讀學生考取CNC銑床、電腦輔助立體製圖等勞動部國家乙級專業證照。", source: "[證照專利]" },
+                    { id: "全國技專實務專題競賽獲獎", group: "PHASE 04: 技職典範與職涯對接", importance: 5, desc: "頂尖指標。帶領跨域專題團隊角逐教育部全國技專校院學生實務專題競賽，勇奪第一名卓越桂冠。", source: "[競賽成果]" },
+                    { id: "產學共構發明新型專利申請", group: "PHASE 04: 技職典範與職涯對接", importance: 5, desc: "智慧財產產出。將專題製程研發成果申請經濟部智慧財產局新型或發明專利，建立技術保護網。", source: "[證照專利]" },
+                    { id: "專利技術移轉與商品化商轉", group: "PHASE 04: 技職典範與職涯對接", importance: 5, desc: "產學變現。成功將師生專題專利成果技術授權在地企業並量產上市，創造實質產學技轉權利金。", source: "[典範輸出]" },
+                    { id: "校務IR畢業生薪資追蹤", group: "PHASE 04: 技職典範與職涯對接", importance: 5, desc: "數據治理。串接校級IR大數據，客觀監控修讀學程學生畢業滿一年之平均月薪高於同系基準20%。", source: "[績效指標]" },
+                    { id: "學生專業工程技術作品集", group: "PHASE 04: 技職典範與職涯對接", importance: 4, desc: "人力資本。指導每位學員建立包含3D模型、實體零件、專利字號與影片之作品集，直聘一線大廠。", source: "[職涯對接]" },
+                    { id: "全校跨域畢業專題實體大展", group: "PHASE 04: 技職典範與職涯對接", importance: 4, desc: "綜合成果發表。於校內體育館盛大辦理跨域實務專題公開展覽，邀請逾50家企業人資現場媒合選秀。", source: "[競賽成果]" },
+                    { id: "學生技職發明專題研發社團", group: "PHASE 04: 技職典範與職涯對接", importance: 3, desc: "同儕社群CoP。由學長姐自主帶領學弟妹鑽研創客電子電路與開源機構，形成跨年級技術傳承梯隊。", source: "[職涯對接]" },
+                    { id: "高科技園區直聘就業媒合", group: "PHASE 04: 技職典範與職涯對接", importance: 4, desc: "就業直通車。與園區半導體與精密機械廠商簽訂就業直聘合作備忘錄，實習期滿直接轉任正職工程師。", source: "[職涯對接]" },
+                    { id: "國際發明展金牌獎項角逐", group: "PHASE 04: 技職典範與職涯對接", importance: 4, desc: "國際能見度。輔導優秀專題團隊出國征戰瑞士日內瓦、德國紐倫堡發明展，榮獲國際金牌獎肯定。", source: "[競賽成果]" },
+                    { id: "學期專題預警與補救輔導", group: "PHASE 04: 技職典範與職涯對接", importance: 2, desc: "被動輔導機制。針對實作進度落後或實習出勤異常之學生進行預警面談，由導師協同調整實作目標。", source: "[績效指標]" },
+                    { id: "技職實務典範學校標竿分享", group: "PHASE 04: 技職典範與職涯對接", importance: 4, desc: "外溢示範。主辦全國跨校技職教學創新研討會，向公私立科技大學分享跨域實務學程培育模式SOP。", source: "[典範輸出]" }
                 ],
                 links: [
-                    { source: "PHASE 01: 建立學程架構", target: "跨院學程規章審核", label: "歸屬" },
-                    { source: "PHASE 01: 建立學程架構", target: "通識學分跨院對開", label: "歸屬" },
-                    { source: "PHASE 01: 建立學程架構", target: "學程 Logo 設計與推廣", label: "歸屬" },
-                    { source: "PHASE 01: 建立學程架構", target: "招生說明會辦理", label: "歸屬" },
-                    { source: "PHASE 01: 建立學程架構", target: "專家諮詢委員會", label: "歸屬" },
-                    { source: "PHASE 01: 建立學程架構", target: "跨領域產業學程", label: "歸屬" },
-                    { source: "PHASE 01: 建立學程架構", target: "畢業證書核發機制", label: "歸屬" },
-                    { source: "PHASE 01: 建立學程架構", target: "行政庶務核銷", label: "歸屬" },
-                    { source: "PHASE 01: 建立學程架構", target: "專職輔導員薪資核算", label: "歸屬" },
-                    { source: "PHASE 01: 建立學程架構", target: "成果報告與核銷彙整", label: "歸屬" },
-                    { source: "PHASE 01: 建立學程架構", target: "公務網站信箱收發管理", label: "歸屬" },
+                    { source: "PHASE 01: 建立技職學程架構", target: "跨系學程規章審核", label: "歸屬" },
+                    { source: "PHASE 01: 建立技職學程架構", target: "實作工場職業安全檢驗", label: "歸屬" },
+                    { source: "PHASE 01: 建立技職學程架構", target: "技職學程品牌識別與推廣", label: "歸屬" },
+                    { source: "PHASE 01: 建立技職學程架構", target: "招生說明會與跨系說明", label: "歸屬" },
+                    { source: "PHASE 01: 建立技職學程架構", target: "產官學專家諮詢委員會", label: "歸屬" },
+                    { source: "PHASE 01: 建立技職學程架構", target: "跨領域技職實務微學程", label: "歸屬" },
+                    { source: "PHASE 01: 建立技職學程架構", target: "技術修業證書核發機制", label: "歸屬" },
+                    { source: "PHASE 01: 建立技職學程架構", target: "常態材料與耗材採購報銷", label: "歸屬" },
+                    { source: "PHASE 01: 建立技職學程架構", target: "學程專案助理薪資核算", label: "歸屬" },
+                    { source: "PHASE 01: 建立技職學程架構", target: "期末成果彙整與經費核銷", label: "歸屬" },
+                    { source: "PHASE 01: 建立技職學程架構", target: "實作工場設備預約平台", label: "歸屬" },
 
-                    { source: "PHASE 02: 產學技術對接", target: "金曲等級校友業師", label: "歸屬" },
-                    { source: "PHASE 02: 產學技術對接", target: "百萬級專業錄音室", label: "歸屬" },
-                    { source: "PHASE 02: 產學技術對接", target: "自媒體與數位音樂講座", label: "歸屬" },
-                    { source: "PHASE 02: 產學技術對接", target: "錄音混音實務培訓", label: "歸屬" },
-                    { source: "PHASE 02: 產學技術對接", target: "產業實習機會媒合", label: "歸屬" },
-                    { source: "PHASE 02: 產學技術對接", target: "專業級錄混音設備", label: "歸屬" },
-                    { source: "PHASE 02: 產學技術對接", target: "工讀金與一般獎學金", label: "歸屬" },
-                    { source: "PHASE 02: 產學技術對接", target: "設備維護與年度盤點", label: "歸屬" },
-                    { source: "PHASE 02: 產學技術對接", target: "自主創業孵化培育", label: "歸屬" },
+                    { source: "PHASE 02: 雙師協同與產學共構", target: "金牌產業業師雙師共時", label: "歸屬" },
+                    { source: "PHASE 02: 雙師協同與產學共構", target: "百萬智慧實作基地", label: "歸屬" },
+                    { source: "PHASE 02: 雙師協同與產學共構", target: "全學期校外企業實習", label: "歸屬" },
+                    { source: "PHASE 02: 雙師協同與產學共構", target: "產學共構實務教材開發", label: "歸屬" },
+                    { source: "PHASE 02: 雙師協同與產學共構", target: "工業物聯網技術專題講座", label: "歸屬" },
+                    { source: "PHASE 02: 雙師協同與產學共構", target: "機台操作檢核與技能認證", label: "歸屬" },
+                    { source: "PHASE 02: 雙師協同與產學共構", target: "智慧檢測儀器與感測套件", label: "歸屬" },
+                    { source: "PHASE 02: 雙師協同與產學共構", target: "清寒實習工讀與生活助學金", label: "歸屬" },
+                    { source: "PHASE 02: 雙師協同與產學共構", target: "機具定期校正與防護保養", label: "歸屬" },
+                    { source: "PHASE 02: 雙師協同與產學共構", target: "產學產學案先期研發媒合", label: "歸屬" },
 
-                    { source: "PHASE 03: 文化內涵深耕", target: "部落聲音採集與田野", label: "歸屬" }, 
-                    { source: "PHASE 03: 文化內涵深耕", target: "族語沉浸式工作坊", label: "歸屬" },
-                    { source: "PHASE 03: 文化內涵深耕", target: "傳統古調流行再造", label: "歸屬" },
-                    { source: "PHASE 03: 文化內涵深耕", target: "都會經驗認同修復", label: "歸屬" },
-                    { source: "PHASE 03: 文化內涵深耕", target: "傳統樂器製作工作坊", label: "歸屬" },
-                    { source: "PHASE 03: 文化內涵深耕", target: "傳統祭儀校園實踐", label: "歸屬" },
-                    { source: "PHASE 03: 文化內涵深耕", target: "民族史觀知識庫", label: "歸屬" },
-                    { source: "PHASE 03: 文化內涵深耕", target: "一生四師陪伴計畫", label: "歸屬" },
-                    { source: "PHASE 03: 文化內涵深耕", target: "活動保險與差旅報支", label: "歸屬" },
-                    { source: "PHASE 03: 文化內涵深耕", target: "族語快閃錄音空間", label: "歸屬" },
-                    { source: "PHASE 03: 文化內涵深耕", target: "空間美學共構計畫", label: "歸屬" },
-                    { source: "PHASE 03: 文化內涵深耕", target: "雙語與符號空間改造", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "地方產業創生實務專題", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "傳統工藝逆向數位建模", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "智慧感測融入在地農業", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "傳統紋樣文創商品開模", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "在地青農特色包裝智慧化", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "部落社區田野技術訪調", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "知情同意與智財共有機制", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "師生場域駐點工作坊", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "在地天然材料成分萃取試驗", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "低碳綠色製程改良專案", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "田野訪調差旅與保險報支", label: "歸屬" },
+                    { source: "PHASE 03: 實務專題在地轉譯", target: "在地創生展演場域共構", label: "歸屬" },
 
-                    { source: "PHASE 04: 培育成果驗收", target: "音樂合輯製作", label: "歸屬" },
-                    { source: "PHASE 04: 培育成果驗收", target: "學員 MV 影像影音產製", label: "歸屬" },
-                    { source: "PHASE 04: 培育成果驗收", target: "年度大型跨域發表展演", label: "歸屬" },
-                    { source: "PHASE 04: 培育成果驗收", target: "校務 IR 精準預警追蹤", label: "歸屬" },
-                    { source: "PHASE 04: 培育成果驗收", target: "一站式輔導樞紐", label: "歸屬" },
-                    { source: "PHASE 04: 培育成果驗收", target: "雙導師與三級輔導", label: "歸屬" },
-                    { source: "PHASE 04: 培育成果驗收", target: "自治社團", label: "歸屬" },
-                    { source: "PHASE 04: 培育成果驗收", target: "原民小畢典與成年禮", label: "歸屬" },
-                    { source: "PHASE 04: 培育成果驗收", target: "期中預警人工電訪", label: "歸屬" },
-                    { source: "PHASE 04: 培育成果驗收", target: "全民原教知能研習", label: "歸屬" },
-                    { source: "PHASE 04: 培育成果驗收", target: "跨校成果聯合巡演", label: "歸屬" },
-                    { source: "PHASE 04: 培育成果驗收", target: "學生專業作品集製作", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "國家乙級技術士考照通過", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "全國技專實務專題競賽獲獎", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "產學共構發明新型專利申請", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "專利技術移轉與商品化商轉", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "校務IR畢業生薪資追蹤", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "學生專業工程技術作品集", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "全校跨域畢業專題實體大展", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "學生技職發明專題研發社團", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "高科技園區直聘就業媒合", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "國際發明展金牌獎項角逐", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "學期專題預警與補救輔導", label: "歸屬" },
+                    { source: "PHASE 04: 技職典範與職涯對接", target: "技職實務典範學校標竿分享", label: "歸屬" },
 
                     // 跨越階段之橫向連鎖線
-                    { source: "通識學分跨院對開", target: "招生說明會辦理", label: "宣傳對接" },
-                    { source: "學程 Logo 設計與推廣", target: "音樂合輯製作", label: "視覺包裝" },
-                    { source: "專家諮詢委員會", target: "跨院學程規章審核", label: "治理監督" },
-                    { source: "金曲等級校友業師", target: "音樂合輯製作", label: "大師輔導" },
-                    { source: "百萬級專業錄音室", target: "錄音混音實務培訓", label: "實作場域" },
-                    { source: "專業級錄混音設備", target: "錄音混音實務培訓", label: "硬體支援" },
-                    { source: "錄音混音實務培訓", target: "音樂合輯製作", label: "技術支援" },
-                    { source: "部落聲音採集與田野", target: "傳統古調流行再造", label: "素材回流" },
-                    { source: "族語沉浸式工作坊", target: "傳統古調流行再造", label: "語法把關" },
-                    { source: "傳統古調流行再造", target: "音樂合輯製作", label: "核心音軌" },
-                    { source: "音樂合輯製作", target: "學員 MV 影像影音產製", label: "影音整合" },
-                    { source: "音樂合輯製作", target: "年度大型跨域發表展演", label: "舞台發表" },
-                    { source: "自治社團", target: "年度大型跨域發表展演", label: "社團動員" },
-                    { source: "一站式輔導樞紐", target: "校務 IR 精準預警追蹤", label: "精準輔導" },
-                    { source: "雙導師與三級輔導", target: "一站式輔導樞紐", label: "三級聯防" },
-                    { source: "學員 MV 影像影音產製", target: "學生專業作品集製作", label: "作品累積" }
+                    { source: "實作工場職業安全檢驗", target: "百萬智慧實作基地", label: "安全準入" },
+                    { source: "跨領域技職實務微學程", target: "全學期校外企業實習", label: "修課對接" },
+                    { source: "產官學專家諮詢委員會", target: "產學共構實務教材開發", label: "教材審定" },
+                    { source: "金牌產業業師雙師共時", target: "全學期校外企業實習", label: "引薦實習" },
+                    { source: "百萬智慧實作基地", target: "傳統工藝逆向數位建模", label: "設備支援" },
+                    { source: "金牌產業業師雙師共時", target: "地方產業創生實務專題", label: "實務指導" },
+                    { source: "地方產業創生實務專題", target: "全國技專實務專題競賽獲獎", label: "專題參賽" },
+                    { source: "地方產業創生實務專題", target: "產學共構發明新型專利申請", label: "成果專利" },
+                    { source: "傳統工藝逆向數位建模", target: "傳統紋樣文創商品開模", label: "數位加值" },
+                    { source: "智慧感測融入在地農業", target: "地方產業創生實務專題", label: "物聯網導入" },
+                    { source: "知情同意與智財共有機制", target: "產學共構發明新型專利申請", label: "權益共享" },
+                    { source: "產學共構發明新型專利申請", target: "專利技術移轉與商品化商轉", label: "技術移轉" },
+                    { source: "國家乙級技術士考照通過", target: "學生專業工程技術作品集", label: "證照採認" },
+                    { source: "全學期校外企業實習", target: "高科技園區直聘就業媒合", label: "實習轉正" },
+                    { source: "高科技園區直聘就業媒合", target: "校務IR畢業生薪資追蹤", label: "薪資回傳" },
+                    { source: "全國技專實務專題競賽獲獎", target: "全校跨域畢業專題實體大展", label: "展覽亮相" },
+                    { source: "專利技術移轉與商品化商轉", target: "技職實務典範學校標竿分享", label: "典範輸出" }
                 ]
             };
 
             const phases = [
-                { id: 'PHASE 01: 建立學程架構', title: '建立學程架構' },
-                { id: 'PHASE 02: 產學技術對接', title: '產學大師技術對接' },
-                { id: 'PHASE 03: 文化內涵深耕', title: '文化內涵與原鄉深耕' },
-                { id: 'PHASE 04: 培育成果驗收', title: '培育成果與合輯發行' }
+                { id: 'PHASE 01: 建立技職學程架構', title: '建立跨域技職學程架構' },
+                { id: 'PHASE 02: 雙師協同與產學共構', title: '雙師協同與高階產學共構' },
+                { id: 'PHASE 03: 實務專題在地轉譯', title: '實務專題與地方產業轉譯' },
+                { id: 'PHASE 04: 技職典範與職涯對接', title: '技職典範與職涯跨域對接' }
             ];
 
             // 嚴格落實一對一去識別化函數
@@ -285,21 +288,22 @@
                 return text.toString().trim()
                     .replace(/\d{3}年度/g, "年度")
                     .replace(/\d{3}年/g, "年度")
-                    .replace(/輔仁大學/g, "核心示範大學")
-                    .replace(/輔大/g, "示範大學")
-                    .replace(/原資中心/g, "中心樞紐")
+                    .replace(/輔仁大學/g, "示範科技大學")
+                    .replace(/輔大/g, "科大")
+                    .replace(/原資中心/g, "技術研發中心")
                     .replace(/"/g, "");
             };
 
             const groupToPhase = {
-                '[行政授權]': 'PHASE 01: 建立學程架構', '[行政瑣務]': 'PHASE 01: 建立學程架構',
-                '[核心主軸]': 'PHASE 02: 產學技術對接', '[技術指標]': 'PHASE 02: 產學技術對接',
-                '[產學對接]': 'PHASE 02: 產學技術對接', '[學習守護]': 'PHASE 02: 產學技術對接',
-                '[文化深耕]': 'PHASE 03: 文化內涵深耕', '[靈魂核心]': 'PHASE 03: 文化內涵深耕',
-                '[族語教學]': 'PHASE 03: 文化內涵深耕', '[部落連結]': 'PHASE 03: 文化內涵深耕',
-                '[社會資本]': 'PHASE 03: 文化內涵深耕', '[全民原教]': 'PHASE 03: 文化內涵深耕',
-                '[學生組織]': 'PHASE 04: 培育成果驗收', '[成果驗收]': 'PHASE 04: 培育成果驗收',
-                '[績效指標]': 'PHASE 04: 培育成果驗收', '[策略輸出]': 'PHASE 04: 培育成果驗收', '[戰略輸出]': 'PHASE 04: 培育成果驗收'
+                '[行政授權]': 'PHASE 01: 建立技職學程架構', '[行政瑣務]': 'PHASE 01: 建立技職學程架構', '[實作認證]': 'PHASE 01: 建立技職學程架構',
+                '[核心主軸]': 'PHASE 02: 雙師協同與產學共構', '[技術指標]': 'PHASE 02: 雙師協同與產學共構', '[雙師協同]': 'PHASE 02: 雙師協同與產學共構',
+                '[產學對接]': 'PHASE 02: 雙師協同與產學共構', '[基地實作]': 'PHASE 02: 雙師協同與產學共構', '[學習守護]': 'PHASE 02: 雙師協同與產學共構',
+                '[實務專題]': 'PHASE 03: 實務專題在地轉譯', '[在地創生]': 'PHASE 03: 實務專題在地轉譯', '[文化轉譯]': 'PHASE 03: 實務專題在地轉譯',
+                '[工藝數位]': 'PHASE 03: 實務專題在地轉譯', '[技術移轉]': 'PHASE 03: 實務專題在地轉譯', '[文化深耕]': 'PHASE 03: 實務專題在地轉譯',
+                '[族語教學]': 'PHASE 03: 實務專題在地轉譯', '[部落連結]': 'PHASE 03: 實務專題在地轉譯', '[社會資本]': 'PHASE 03: 實務專題在地轉譯',
+                '[證照專利]': 'PHASE 04: 技職典範與職涯對接', '[競賽成果]': 'PHASE 04: 技職典範與職涯對接', '[職涯對接]': 'PHASE 04: 技職典範與職涯對接',
+                '[績效指標]': 'PHASE 04: 技職典範與職涯對接', '[典範輸出]': 'PHASE 04: 技職典範與職涯對接', '[學生組織]': 'PHASE 04: 技職典範與職涯對接',
+                '[成果驗收]': 'PHASE 04: 技職典範與職涯對接', '[策略輸出]': 'PHASE 04: 技職典範與職涯對接', '[全民原教]': 'PHASE 04: 技職典範與職涯對接'
             };
 
             const parseSheetData = (rows) => {
@@ -307,7 +311,7 @@
                 const links = [];
                 const nodeIds = new Set();
                 
-                const phaseList = ['PHASE 01: 建立學程架構', 'PHASE 02: 產學技術對接', 'PHASE 03: 文化內涵深耕', 'PHASE 04: 培育成果驗收'];
+                const phaseList = ['PHASE 01: 建立技職學程架構', 'PHASE 02: 雙師協同與產學共構', 'PHASE 03: 實務專題在地轉譯', 'PHASE 04: 技職典範與職涯對接'];
                 phaseList.forEach(p => {
                     nodes.push({ id: p, group: p, importance: 5, desc: p + " 策略核心", source: "系統定義" });
                     nodeIds.add(p);
@@ -319,7 +323,7 @@
                     if (!cleanId || nodeIds.has(cleanId)) return null;
 
                     const groupLabel = (row['所屬分類 (Group)'] || values[1] || "").toString().trim();
-                    const phase = groupToPhase[groupLabel] || 'PHASE 01: 建立學程架構';
+                    const phase = groupToPhase[groupLabel] || 'PHASE 01: 建立技職學程架構';
 
                     const impVal = row['比重 (Importance)'] || values[2];
                     const descVal = row['特性說明'] || values[3];
@@ -370,7 +374,7 @@
                         throw new Error("試算表資料為空");
                     })
                     .catch(err => {
-                        console.warn("直接載入試算表失敗，使用備用展示資料:", err);
+                        console.warn("直接載入試算表失敗，使用科技大學備用展示資料:", err);
                         if (typeof google !== 'undefined' && google.script && google.script.run) {
                             google.script.run
                                 .withSuccessHandler((res) => {
@@ -486,10 +490,10 @@
                     nodeSelectionRef.current = node;
 
                     const colors = {
-                        'PHASE 01: 建立學程架構': '#2563eb', // 皇家藍
-                        'PHASE 02: 產學技術對接': '#059669', // 翡翠綠
-                        'PHASE 03: 文化內涵深耕': '#db2777', // 玫瑰粉
-                        'PHASE 04: 培育成果驗收': '#FFA500'  // 橘色
+                        'PHASE 01: 建立技職學程架構': '#2563eb', // 皇家藍
+                        'PHASE 02: 雙師協同與產學共構': '#059669', // 翡翠綠
+                        'PHASE 03: 實務專題在地轉譯': '#db2777', // 玫瑰粉
+                        'PHASE 04: 技職典範與職涯對接': '#FFA500'  // 橘色
                     };
 
                     node.append("circle")
@@ -526,7 +530,7 @@
             }, [data]);
 
             // ==========================================
-            // 🎯 PHASE / SIDEBAR 點擊聯動自動位移與對焦核心 (V6.2 旗艦更新)
+            // 🎯 PHASE / SIDEBAR 點擊聯動自動位移與對焦核心
             // ==========================================
             useEffect(() => {
                 if (!data || !svgSelectRef.current || !zoomRef.current || !nodesDataRef.current.length) return;
@@ -589,7 +593,7 @@
             }, [activePhase, isSidebarOpen, data]);
 
             // ==========================================
-            // 🎯 點擊單個關聯節點，飛入精確對焦 (V6.2 深度優化)
+            // 🎯 點擊單個關聯節點，飛入精確對焦
             // ==========================================
             useEffect(() => {
                 if (!selectedNode || !svgSelectRef.current || !zoomRef.current || !nodesDataRef.current.length) return;
@@ -617,7 +621,7 @@
             }, [selectedNode]);
 
             // ==========================================
-            // 📄 白話版策略診斷報告分析與 Word 匯出邏輯
+            // 📄 白話版策略診斷報告分析與 Word 匯出邏輯 (科技大學專屬)
             // ==========================================
             const generateReportDetails = (inputData) => {
                 if (!inputData || !inputData.nodes) return null;
@@ -626,10 +630,10 @@
                 if (totalNodes === 0) return null;
 
                 const phaseNames = [
-                    'PHASE 01: 建立學程架構',
-                    'PHASE 02: 產學技術對接',
-                    'PHASE 03: 文化內涵深耕',
-                    'PHASE 04: 培育成果驗收'
+                    'PHASE 01: 建立技職學程架構',
+                    'PHASE 02: 雙師協同與產學共構',
+                    'PHASE 03: 實務專題在地轉譯',
+                    'PHASE 04: 技職典範與職涯對接'
                 ];
 
                 const phaseStats = phaseNames.map((p, idx) => {
@@ -665,16 +669,16 @@
 
                 if (phaseStats[3].ratio >= 25 && p4High >= 2) {
                     currentStage = phaseStats[3];
-                    stageReason = '貴校在「培育成果驗收」已有成熟的原創代表作產出、影像產製與跨校發表，且具備校務 IR 追蹤成效，已進入第四階段成熟典範期。';
+                    stageReason = '貴校在「技職典範與職涯對接」已有成熟的國家乙級技術士考照、全國技專實務專題競賽獲獎、專利商轉及校務 IR 就業薪資追蹤，具備鮮明成果代表作，已進入第四階段成熟典範期。';
                 } else if (phaseStats[2].ratio >= 25 && p3High >= 2) {
                     currentStage = phaseStats[2];
-                    stageReason = '貴校在「文化內涵深耕」累積了扎實的部落田野、古調採集與傳統實踐，文化認同護城河鮮明，正處於第三階段文化深耕期。';
+                    stageReason = '貴校在「實務專題在地轉譯」累積了扎實的地方創生、傳統工藝數位化與農產智慧製造專題，在地技術轉譯護城河鮮明，正處於第三階段在地實務深耕期。';
                 } else if (phaseStats[1].ratio >= 25 || p2High >= 2) {
                     currentStage = phaseStats[1];
-                    stageReason = '貴校已具備充足的百萬級專業場域、數位混音與業界金曲大師協同能量，技術賦能成效顯著，正處於第二階段產學技術深化期。';
+                    stageReason = '貴校已具備百萬級智慧實作基地、雙師共時協同授課與全學期校外企業實習管道，技術賦能與產學對接能量顯著，正處於第二階段雙師產學深化期。';
                 } else {
                     currentStage = phaseStats[0];
-                    stageReason = '貴校過去三年的重心主要在校級行政規章核備、開通跨院選課通道與品牌識別建立，屬於打底扎根階段，正處於第一階段學程架構奠基期。';
+                    stageReason = '貴校過去三年的重心主要在校級跨系學程規章核備、實作工場職安安檢建置與跨系選課通道開通，屬於打底扎根階段，正處於第一階段技職架構奠基期。';
                 }
 
                 // 基礎維持與動員 (比重 1~2)
@@ -689,7 +693,7 @@
                 const strengths = [
                     {
                         title: `高階核心專業資產深厚（比重 4~5 共 ${topAssets.length} 項，佔 ${topAssetsRatio}%）`,
-                        desc: `包含「${topAssets.slice(0, 3).map(a => a.id).join('」、「')}」等比重 4~5 之旗艦核心項目，具備深厚專業實作門檻與不可輕易被複製的教學特色。`,
+                        desc: `包含「${topAssets.slice(0, 3).map(a => a.id).join('」、「')}」等比重 4~5 之旗艦核心項目，具備高階實作技術門檻與產業不可輕易被複製的教學特色。`,
                         tag: '核心資產'
                     },
                     {
@@ -698,8 +702,8 @@
                         tag: '策略重心'
                     },
                     {
-                        title: '跨院整合與專業實踐場域運作健全',
-                        desc: '已成功打通學院間的開課選課壁壘，並具備可供師生長期沉浸式共學、大師協同與創作孵化的高階實踐場域。',
+                        title: '雙師協同與高階實作場域運作健全',
+                        desc: '已成功打通學院與系所間的開課選課壁壘，具備工業級智慧製造基地與金牌業師雙師指導機制，形成貼合產線標準之共學實作。',
                         tag: '組織協同'
                     }
                 ];
@@ -708,29 +712,29 @@
                 const weaknesses = [];
                 if (lowWeightRatio > 35) {
                     weaknesses.push({
-                        title: `行政維持成本偏高（比重 1~2 佔 ${lowWeightRatio}%）`,
-                        desc: `全校共有 ${lowWeightNodes.length} 項屬於報帳核銷、行政瑣務或日常維持項目，顯示行政與核銷雜務繁重，容易稀釋專任師資投入核心跨域教學與高階創作的時間精力。`,
+                        title: `行政維持與耗材採購成本偏高（比重 1~2 佔 ${lowWeightRatio}%）`,
+                        desc: `全校共有 ${lowWeightNodes.length} 項屬於耗材報銷、例行公文或日常維運項目，顯示行政與庶務負擔較重，容易稀釋專任師資投入高階專案研發與產學合作的時間精力。`,
                         tag: '行政負荷'
                     });
                 }
                 if (phaseStats[3].count < 3 || p4High === 0) {
                     weaknesses.push({
-                        title: '成果驗收與能見度指標尚待擴充',
-                        desc: '第四階段（如數位串流合輯、專業 MV、公開巡演發表、校務 IR 長期就業追蹤）之高階項目偏少，外部評鑑與社會大眾不易直觀看見多年培育的指標性代表成果。',
+                        title: '成果驗收與職涯追蹤指標尚待擴充',
+                        desc: '第四階段（如國家技術士乙級以上證照、全國專題競賽獲獎、專利商轉、校務 IR 長期就業薪資追蹤）之高階項目偏少，外部評鑑與企業不易直觀看見多年培育的指標性代表成果。',
                         tag: '產出斷鏈'
                     });
                 }
                 if (phaseStats[2].count < 3 || p3High === 0) {
                     weaknesses.push({
-                        title: '文化深耕與部落原生連結仍有深化空間',
-                        desc: '若技術操作比例過高而文化採集與族語沉浸比例偏低，容易使學程流於一般商業製作，缺乏原住民族文化的精神主體性與不可替代性。',
-                        tag: '文化主體'
+                        title: '在地產業轉譯與智財共有機制仍有深化空間',
+                        desc: '若技術操作比例過高而地方創生深度解題與智財共享比例偏低，容易使專題流於一般代工代操作，缺乏在地特色與不可替代的品牌技術護城河。',
+                        tag: '在地深耕'
                     });
                 }
                 if (weaknesses.length === 0) {
                     weaknesses.push({
                         title: '跨階段橫向連鎖鏈結仍可持續加密',
-                        desc: '部分節點仍屬單點執行，建議進一步將行政授權、大師技術、文化田調與成果驗收四者形成閉環聯動，讓每一項資源都能發揮加乘連鎖效益。',
+                        desc: '部分節點仍屬單點執行，建議進一步將職安場域、雙師授課、在地專題與競賽專利四者形成閉環聯動，讓每一項資源都能發揮加乘連鎖效益。',
                         tag: '網絡協同'
                     });
                 }
@@ -738,37 +742,37 @@
                 // 3. O (Opportunities 外部機會)
                 const opportunities = [
                     {
-                        title: '教育部 USR、高教深耕與全民原教政策紅利',
-                        desc: '教育部與原民會積極獎助原民高教深耕、文化沉浸與部落創生計畫，跨域學程極具爭取部會大型整合型專案與典範學校之利基。',
+                        title: '教育部高教深耕、技專校院產業實作基地與 USR 政策紅利',
+                        desc: '教育部與國科會積極補助技專校院產業菁英實作基地、產學共構及區域人才培育基地，本校跨域技職學程極具爭取大型競爭型專案之優勢。',
                         tag: '政策支持'
                     },
                     {
-                        title: '新媒體串流與原住民族文化 IP 數位內容需求爆發',
-                        desc: '國際串流平台與文策院（TAICCA）高度重視原生文化轉譯，具備族群深度與當代流行美學的作品在海內外市場具有極高市場辨識度。',
+                        title: '智慧製造轉型、地方創生與 AI 數位工具加值商機',
+                        desc: '在地傳統製造業與農特產聚落急需數位化、智慧感測與低碳綠色製程升級，科技大學跨域實務團隊具備極高在地賦能與產學商機。',
                         tag: '市場商機'
                     },
                     {
-                        title: '跨院新興科技與 AI 數位工具輔助賦能',
-                        desc: '結合數位影音技術、AI 輔助編曲與文化語料庫建置，可大幅縮短創作孵化週期，擴大學生作品傳播半徑。',
-                        tag: '科技賦能'
+                        title: '產業缺工潮下之高薪預聘與產學訂單班需求旺盛',
+                        desc: '科學園區與工業區廠商極度渴求具備即戰力、持有乙級證照之技職工程人才，開展全學期校外實習與直聘留任具有龐大潛力。',
+                        tag: '就業需求'
                     }
                 ];
 
                 // 4. T (Threats 外部威脅)
                 const threats = [
                     {
-                        title: '全國少子化浪潮下生源競爭與跨域修課黏著度挑戰',
-                        desc: '大專校院生源逐年縮減，跨領域學程若未具備不可替代的職涯誘因，易面臨學生選課流失或修課半途而廢之風險。',
+                        title: '少子化浪潮下技職生源萎縮與跨系修課動員挑戰',
+                        desc: '技職體系生源減幅顯著，跨領域實務學程若未具備不可替代的職涯誘因，易面臨學生選課人數不足或修課半途而廢之風險。',
                         tag: '生源競爭'
                     },
                     {
-                        title: '部落文化傳統智慧創作（原智權）與倫理授權爭議',
-                        desc: '進行古調採集與田野創作時，若未建立合規的部落知情同意機制（FPIC），可能引發文化挪用疑慮或著作權法律爭議。',
-                        tag: '智財倫理'
+                        title: '產學研發智財歸屬爭議與實作工場工安法律風險',
+                        desc: '實作工場存在機具操作工安風險，且產學專題涉及技術移轉時，若未完備知情同意與智財共有合約易衍生法律爭議。',
+                        tag: '法規與工安'
                     },
                     {
-                        title: '業界大師師資異動流失與外部競爭性經費變動風險',
-                        desc: '業界業師與專案助理流動性高，且高教補助經費多為競爭型計畫，若無校級制度性常態預算支持，計畫期滿後恐面臨資源斷鏈。',
+                        title: '業界金牌業師聘任穩定性與高階設備折舊維護成本',
+                        desc: '高階業界名師流動性高，且百萬級精密機台維護校驗與刀具消耗成本昂貴，若無常態產學營運基金支持恐面臨維護斷鏈。',
                         tag: '資源永續'
                     }
                 ];
@@ -777,42 +781,42 @@
                 const crossStrategies = {
                     so: [
                         {
-                            title: 'SO 策略一：依託旗艦核心資產，爭取部會原教典範基地',
-                            desc: `以校內「${topAssets[0]?.id || '核心專業設施'}」等高權重優勢為錨點（S），主動對接高教深耕與全民原教政策紅利（O），將成果轉化為全國性示範觀摩基地。`
+                            title: 'SO 策略一：依託旗艦實作工場與名師資產，爭取教育部技職卓越基地',
+                            desc: `以校內「${topAssets[0]?.id || '百萬智慧實作基地'}」等高權重優勢為錨點（S），主動對接教育部技專產業實作基地與深耕政策紅利（O），將成果轉化為全國性示範觀摩基地。`
                         },
                         {
-                            title: 'SO 策略二：加速原生文化數位轉譯，打造商業級串流代表作',
-                            desc: '結合深厚的部落田野採集底蘊（S）與新媒體串流商機（O），輔導學生推出成熟的文化 IP 串流影音作品，創造社會影響力與就業對接。'
+                            title: 'SO 策略二：加速在地實務專題專利化與商轉，打造產學直聘旗艦標竿',
+                            desc: '結合深厚的地方創生實務專題底繹（S）與產業缺工高薪預聘需求（O），輔導學生將研發成果申請專利並商轉，創造直接直聘管道。'
                         }
                     ],
                     wo: [
                         {
-                            title: 'WO 策略一：推動行政流程數位化與範本化，借力政策資源釋放師生精力',
-                            desc: `針對行政維持佔比達 ${lowWeightRatio}% 的負荷（W），善用專案人事費導入數位協作與標準作業流程（O），讓專任團隊全心投入高階跨域產出。`
+                            title: 'WO 策略一：推動工場設備管理數位化與助理減壓，釋放核心研發量能',
+                            desc: `針對行政與耗材維持佔比達 ${lowWeightRatio}% 的負荷（W），導入線上機台預約與標準保養作業流程（O），讓師生專任團隊全心投入高階專利研發與競賽。`
                         },
                         {
-                            title: 'WO 策略二：借力外部文創生態圈，補足成果驗收與職涯追蹤斷鏈',
-                            desc: '針對成果驗收較薄弱之短板（W），借助外部文創產業對跨域原生人才的迫切需求（O），導入業界實習驗收與跨校巡演發表機制。'
+                            title: 'WO 策略二：對接園區大廠建立保證就業專班，補強成果驗收與證照動能',
+                            desc: '針對第四階段成果驗收指標尚待擴充之處（W），借助園區廠商對即戰力人才的迫切需求（O），導入國家證照培訓與企業保證就業機制。'
                         }
                     ],
                     st: [
                         {
-                            title: 'ST 策略一：全面落實「部落知情同意（FPIC）」SOP，築起智財防護牆',
-                            desc: '在發揮強大田野採集與大師技術能量的同時（S），嚴格落實部落共識與智慧創作專用權授權規範，有效化解潛在文化挪用爭議與法律侵權風險（T）。'
+                            title: 'ST 策略一：落實工場安全標準作業與產學智財共有規範，築起法律防護牆',
+                            desc: '在發揮強大實作工場與雙師協同能量的同時（S），全面通過職業安全衛生安檢認證，並嚴格落實知情同意（FPIC）與專利智財分配合約（T）。'
                         },
                         {
-                            title: 'ST 策略二：大師技術課程教材化與制度化，降低師資異動衝擊',
-                            desc: '將業界名師協同與高階技術實作（S）透過影像、教材與數位微學程系統化沉澱，避免因單一大師異動導致課程斷層（T）。'
+                            title: 'ST 策略二：將金牌業師技術編纂為數位教材與微學程模組，降低師資異動衝擊',
+                            desc: '將業界名師協同與高階技術工藝（S）透過影音教材、專利技術手冊與微學程架構系統化沉澱，避免因單一業師異動導致教學中斷（T）。'
                         }
                     ],
                     wt: [
                         {
-                            title: 'WT 策略一：全面對接校務 IR 大數據，以實證就業數據抵禦退場風險',
-                            desc: '改善僅記錄活動次數的單點思維（W），串接校級教務數據，以學生留校率、跨域成就與就業薪資等硬指標，確保面對補助緊縮時仍具備核心競爭力（T）。'
+                            title: 'WT 策略一：全面對接校務 IR 薪資與就業大數據，以實證績效抵禦退場危機',
+                            desc: '改善僅記錄活動次數的單點思維（W），串接校級 IR 系統，以考照率、競賽獲獎率與畢業生高於同系平均之實質薪資等硬指標抵禦生源縮減衝擊（T）。'
                         },
                         {
-                            title: 'WT 策略二：精實行政支出與邊際活動，集中資源於高投報特色亮點',
-                            desc: '在少子化與資源可能緊縮的外部環境下（T），主動檢討或整併比重低、效益有限的常態行政與雜項動員（W），將有限資源聚焦於最具辨識度的特色亮點。'
+                            title: 'WT 策略二：精實零碎耗材採購與邊際活動，集中資源於高投報之特色實務專題',
+                            desc: '在少子化與資源可能緊縮的外部環境下（T），主動檢討或整併比重低、效益有限的常態雜項作業（W），將有限資源聚焦於最具辨識度的特色技職亮點。'
                         }
                     ]
                 };
@@ -936,7 +940,7 @@
                     <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
                     <head>
                         <meta charset='utf-8'>
-                        <title>一般大學跨域課程模組策略診斷與SWOT分析報告</title>
+                        <title>科技大學跨域技職實務模組策略診斷與SWOT分析報告</title>
                         <style>
                             body { font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif; line-height: 1.6; color: #1e293b; padding: 30px; }
                             h1 { color: #1e3a8a; text-align: center; font-size: 22pt; margin-bottom: 6px; }
@@ -952,10 +956,10 @@
                         </style>
                     </head>
                     <body>
-                        <h1>一般大學跨域課程模組 · 完整策略分析與 SWOT 診斷報告</h1>
+                        <h1>科技大學跨域技職實務模組 · 完整策略分析與 SWOT 診斷報告</h1>
                         <div class="subtitle">Operational Module OS 拓撲分析引擎自動生成 · 評估日期：${todayStr}</div>
 
-                        <h2>一、貴校目前處於哪一個發展階段？（成熟度落點診斷）</h2>
+                        <h2>一、貴校目前處於哪一個發展階段？（技職成熟度落點診斷）</h2>
                         <div class="card" style="background:#eff6ff; border-left:6px solid #2563eb;">
                             <p style="margin:0 0 10px 0;"><span class="stage-badge">${report.currentStage.phase}</span></p>
                             <p style="font-size:12pt; font-weight:bold; color:#1e40af; margin:0 0 8px 0;">【白話落點判定】</p>
@@ -978,7 +982,7 @@
                             </tbody>
                         </table>
 
-                        <h2>二、全校跨域課程模組 SWOT 綜合分析矩陣（2x2 矩陣速覽）</h2>
+                        <h2>二、全校跨域技職實務模組 SWOT 綜合分析矩陣（2x2 矩陣速覽）</h2>
                         <p>依據全校三年期末報告萃取之 <strong>${report.totalNodes} 筆節點</strong> 及其策略比重加權分佈，客觀診斷內部優劣勢並對標外在環境契機：</p>
                         
                         <table style="border-collapse:collapse; width:100%; margin:16px 0;">
@@ -1027,11 +1031,11 @@
                         ${weaknessesListHtml}
 
                         <h3>3.3 🚀 外部機會（Opportunities）：政策紅利與時代利基</h3>
-                        <p>結合教育部、原民會政策導向與文創產業趨勢，貴校可掌握以下重要戰略機會：</p>
+                        <p>結合教育部高教深耕計畫、技專校院產業實作基地與在地創生產業需求，貴校可掌握以下重要戰略機會：</p>
                         ${opportunitiesListHtml}
 
                         <h3>3.4 🛡️ 外部威脅（Threats）：潛在營運風險預警</h3>
-                        <p>面對少子化浪潮、智財倫理規範與專案補助變動，貴校應超前部署防範以下風險：</p>
+                        <p>面對少子化浪潮、智財倫理與工場安檢規範、高階設備維護費用，貴校應超前部署防範以下風險：</p>
                         ${threatsListHtml}
 
                         <h2>四、SWOT 交叉策略矩陣與突破行動方針（SO / WO / ST / WT 方案）</h2>
@@ -1052,7 +1056,7 @@
                         <br/>
                         <hr style="border:0; border-top:1px dashed #cbd5e1; margin:30px 0;"/>
 
-                        <h2>五、附錄：全校跨域課程模組節點資料總表（共 ${report.userNodes.length} 筆）</h2>
+                        <h2>五、附錄：全校跨域技職實務模組節點資料總表（共 ${report.userNodes.length} 筆）</h2>
                         <table>
                             <thead>
                                 <tr>
@@ -1068,7 +1072,7 @@
                             </tbody>
                         </table>
 
-                        <div class="footer">本報告由「一般大學跨域課程模組資源地圖 (GenUni)」自動產製 · 供校內主管決策與計畫撰寫參考</div>
+                        <div class="footer">本報告由「科技大學跨域技職實務模組資源地圖 (TechUni)」自動產製 · 供校內主管決策、評鑑與技專計畫撰寫參考</div>
                     </body>
                     </html>
                 `;
@@ -1077,7 +1081,7 @@
                 const url = URL.createObjectURL(blob);
                 const link = document.createElement('a');
                 link.href = url;
-                link.download = `一般大學跨域課程模組_完整策略分析與SWOT診斷報告_${new Date().toISOString().slice(0,10)}.doc`;
+                link.download = `科技大學跨域技職實務模組_完整策略分析與SWOT診斷報告_${new Date().toISOString().slice(0,10)}.doc`;
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -1089,7 +1093,7 @@
             if (loading) return (
                 <div className="h-screen flex flex-col items-center justify-center bg-slate-50 text-slate-800">
                     <div className="w-16 h-16 border-4 border-rose-500 border-t-transparent rounded-full animate-spin mb-6"></div>
-                    <p className="font-black text-2xl tracking-widest animate-pulse uppercase text-slate-600">📡 數據處理中...</p>
+                    <p className="font-black text-2xl tracking-widest animate-pulse uppercase text-slate-600">📡 技職數據處理中...</p>
                 </div>
             );
 
@@ -1106,9 +1110,9 @@
                     {/* 左側策略折疊風琴式面板 (明亮磨砂大字卡片) */}
                     <div className={`transition-all-custom glass-sidebar p-7 z-20 flex flex-col shadow-xl overflow-y-auto absolute h-full ${isSidebarOpen ? 'translate-x-0 w-[420px]' : '-translate-x-full w-[420px]'}`}>
                         <div className="mb-6">
-                            <h1 className="text-2xl font-black text-slate-800 leading-tight">一般大學<br/><span className="text-rose-600 text-3xl font-black tracking-tighter">跨域課程資源地圖</span></h1>
+                            <h1 className="text-2xl font-black text-slate-800 leading-tight">科技大學<br/><span className="text-rose-600 text-3xl font-black tracking-tighter">技職實務資源地圖</span></h1>
                             <div className="h-1.5 w-14 bg-rose-500 mt-4 rounded-full"></div>
-                            <p className="text-[11px] text-slate-400 font-bold mt-1.5 uppercase tracking-[0.3em]">Operational Module OS v6.2</p>
+                            <p className="text-[11px] text-slate-400 font-bold mt-1.5 uppercase tracking-[0.3em]">Operational Module OS v6.2 · TechUni</p>
                         </div>
                         
                         {/* 📄 完整策略診斷報告 (含SWOT) 與 Word 下載按鈕 */}
@@ -1256,19 +1260,19 @@
                         <div className="absolute bottom-6 right-6 flex flex-col gap-2 p-4 bg-white/90 backdrop-blur rounded-2xl border border-slate-200/80 text-[11px] font-bold text-slate-600 shadow-lg">
                             <div className="flex items-center gap-2">
                                 <div className="w-2.5 h-2.5 rounded-full bg-[#2563eb]"></div>
-                                <span>PHASE 01: 建立學程架構</span>
+                                <span>PHASE 01: 建立技職學程架構</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <div className="w-2.5 h-2.5 rounded-full bg-[#059669]"></div>
-                                <span>PHASE 02: 產學技術對接</span>
+                                <span>PHASE 02: 雙師協同與產學共構</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <div className="w-2.5 h-2.5 rounded-full bg-[#db2777]"></div>
-                                <span>PHASE 03: 文化內涵深耕</span>
+                                <span>PHASE 03: 實務專題在地轉譯</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <div className="w-2.5 h-2.5 rounded-full bg-[#FFA500]"></div>
-                                <span>PHASE 04: 培育成果驗收</span>
+                                <span>PHASE 04: 技職典範與職涯對接</span>
                             </div>
                         </div>
                     </div>
@@ -1287,7 +1291,7 @@
                                             </svg>
                                         </div>
                                         <div>
-                                            <h2 className="text-xl font-black text-slate-800">全校跨域課程模組 · 完整策略分析與 SWOT 診斷報告</h2>
+                                            <h2 className="text-xl font-black text-slate-800">科技大學跨域技職實務模組 · 完整策略分析與 SWOT 診斷報告</h2>
                                             <p className="text-xs text-slate-400 font-bold mt-0.5">系統依據即時節點與比重自動運算生成 · 整合 SWOT 矩陣與交叉策略方針</p>
                                         </div>
                                     </div>
@@ -1350,11 +1354,11 @@
                                         </div>
                                     </div>
 
-                                    {/* 第二章：全校跨域課程模組 SWOT 綜合分析矩陣 (2x2 矩陣速覽) */}
+                                    {/* 第二章：全校跨域技職實務模組 SWOT 綜合分析矩陣 (2x2 矩陣速覽) */}
                                     <div>
                                         <div className="flex items-center justify-between mb-3">
                                             <h3 className="text-base font-black text-slate-800 flex items-center gap-2">
-                                                <span>🧭</span> 二、全校跨域課程模組 SWOT 綜合分析矩陣（2x2 矩陣速覽）
+                                                <span>🧭</span> 二、全校跨域技職實務模組 SWOT 綜合分析矩陣（2x2 矩陣速覽）
                                             </h3>
                                             <span className="text-xs font-bold text-slate-400">依 {reportData.totalNodes} 筆節點權重動態診斷</span>
                                         </div>
@@ -1503,7 +1507,7 @@
                                                 <span className="text-blue-500">🚀</span> 3.3 外部機會（Opportunities）：政策紅利與時代利基
                                             </h4>
                                             <p className="text-xs text-slate-500 font-semibold mb-3">
-                                                結合教育部、原民會政策導向與文創產業趨勢，貴校可掌握以下重要機會：
+                                                結合教育部高教深耕計畫、技專校院產業實作基地與在地創生產業需求，貴校可掌握以下重要機會：
                                             </p>
                                             <div className="space-y-2.5">
                                                 {reportData.swot.opportunities.map((o, idx) => (
@@ -1521,7 +1525,7 @@
                                                 <span className="text-amber-500">🛡️</span> 3.4 外部威脅（Threats）：潛在營運風險預警
                                             </h4>
                                             <p className="text-xs text-slate-500 font-semibold mb-3">
-                                                面對少子化浪潮、智財倫理規範與專案補助變動，貴校應超前部署防範以下風險：
+                                                面對少子化浪潮、智財倫理與工場安檢規範、高階設備維護費用，貴校應超前部署防範以下風險：
                                             </p>
                                             <div className="space-y-2.5">
                                                 {reportData.swot.threats.map((t, idx) => (
