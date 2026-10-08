@@ -1,7 +1,7 @@
 /**
  * 科技大學-原住民族跨領域課程資源地圖 V6.0 GAS 後端腳本
  * * 部署說明：
- * 1. 請確認 ssId 對接您最新的試算表 ID（目前已設定為您的 17xgU7D08XMKytbgzDQx9-kxOC7eM59QqGklAGN4FTVM）。
+ * 1. 請確認 ssId 對接您最新的試算表 ID（目前已設定為您的 1yS_IIIzE-jxFoVv9O2xA1B1_kW-HjST_VTyHiS9mkjw）。
  * 2. 第一次使用時，請在上方選單選擇 "authTrigger" 並點擊「執行」以進行安全授權。
  * 3. 部署為「新版本」網頁應用程式。
  */
@@ -15,14 +15,14 @@ function doGet() {
 }
 
 function authTrigger() {
-  const ssId = '17xgU7D08XMKytbgzDQx9-kxOC7eM59QqGklAGN4FTVM';
+  const ssId = '1yS_IIIzE-jxFoVv9O2xA1B1_kW-HjST_VTyHiS9mkjw';
   const ss = SpreadsheetApp.openById(ssId);
   console.log("授權成功！已成功開啟試算表：" + ss.getName());
 }
 
 function getSpreadsheetData() {
   try {
-    const ssId = '17xgU7D08XMKytbgzDQx9-kxOC7eM59QqGklAGN4FTVM';
+    const ssId = '1yS_IIIzE-jxFoVv9O2xA1B1_kW-HjST_VTyHiS9mkjw';
     const ss = SpreadsheetApp.openById(ssId);
     const sheet = ss.getSheets()[0]; 
     const rows = sheet.getDataRange().getValues();

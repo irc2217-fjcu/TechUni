@@ -388,12 +388,12 @@
             };
 
             useEffect(() => {
-                // 優先檢查網址是否有自訂試算表參數 (?sheet=YOUR_SHEET_ID)
+                // 優先檢查網址參數 (?sheet=YOUR_SHEET_ID)，預設對接專屬 TechUni 試算表 ID
                 const urlParams = new URLSearchParams(window.location.search);
-                const customSheetId = urlParams.get('sheet');
+                const targetSheetId = urlParams.get('sheet') || '1yS_IIIzE-jxFoVv9O2xA1B1_kW-HjST_VTyHiS9mkjw';
                 
-                if (customSheetId) {
-                    const sheetCsvUrl = `https://docs.google.com/spreadsheets/d/${customSheetId}/gviz/tq?tqx=out:csv`;
+                if (targetSheetId) {
+                    const sheetCsvUrl = `https://docs.google.com/spreadsheets/d/${targetSheetId}/gviz/tq?tqx=out:csv`;
                     d3.csv(sheetCsvUrl)
                         .then(rows => {
                             if (rows && rows.length > 0) {
@@ -404,10 +404,10 @@
                                     return;
                                 }
                             }
-                            throw new Error("自訂試算表資料為空或解析失敗");
+                            throw new Error("試算表資料為空或解析失敗");
                         })
                         .catch(err => {
-                            console.warn("載入自訂試算表失敗，切換為科技大學預設展示資料:", err);
+                            console.warn("載入雲端試算表未成功（若尚未公開存取權限），自動啟用內建 33 筆科技大學實戰資料庫:", err);
                             setData(fallbackData);
                             setLoading(false);
                         });
